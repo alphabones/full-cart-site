@@ -1,4 +1,4 @@
-baseURL = "http://getfullcart.com/"
+baseURL = "https://alphabones.github.io/"
 languageCode = "en-us"
 title = "Full Cart"
 theme = "agency"
@@ -124,7 +124,7 @@ googleAnalytics = ""
 
     # About section
   [params.about]
-    enable = true
+    enable = false
     title = "About"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     endpoint = "Be part<br>of our<br>story!"
@@ -238,7 +238,7 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     title = "Contact us"
     subtitle  = "Lorem ipsum dolor sit amet consectetur."
     buttonText = "Send message"
