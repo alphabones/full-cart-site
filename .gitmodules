@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:alphabones/alphabones.github.io.git

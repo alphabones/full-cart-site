@@ -1,0 +1,80 @@
+// Styling for the team section
+//.team-member {
+//  margin-bottom: 50px;
+//  text-align: center;
+//  img {
+//    width: 225px;
+//    height: 225px;
+//    border: 7px solid $white;
+//  }
+//  h4 {
+//    margin-top: 25px;
+//    margin-bottom: 0;
+//    text-transform: none;
+//  }
+//  p {
+//    margin-top: 0;
+//  }
+//}
+
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+
+  img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  h3 {
+    text-transform: none;
+    font-weight: 600;
+    color: #333;
+  }
+
+  h4 {
+    font-size: 16px;
+    text-transform: none;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 0px;
+
+    a {
+      text-transform: none;
+    }
+  }
+
+  h5 {
+    font-size: 14px;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 200;
+    color: #777;
+    margin-bottom: 15px;
+
+    a {
+      text-transform: none;
+    }
+  }
+
+  .report  {
+    margin-top: 0px;
+  }
+
+  ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+}
+
+.team-bio {
+  padding: 15px
+}

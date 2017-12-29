@@ -1,0 +1,76 @@
+// Styling for the navbar
+.navbar-default {
+  background-color: $gray-900;
+  .navbar-toggle {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    @include heading-font;
+    background: none;
+    &:hover {
+      background: none;
+
+    }
+  }
+  .navbar-brand {
+    font-size: 2em;
+    color: $primary;
+    @include script-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+  .nav {
+    li {
+      a {
+        font-weight: 400;
+        padding: 10px 15px;
+        letter-spacing: 1px;
+        color: white;
+        text-transform: uppercase;
+        @include heading-font;
+        &.active,
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+@media(min-width:992px) {
+  .navbar-default {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    .navbar-brand {
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .nav {
+      li {
+        a {
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: $gray-900;
+      .navbar-brand {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
