@@ -1,9 +1,21 @@
 // Styling for the contact section
 section#contact {
   background-color: $gray-900;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/bg-balls.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: #333;
+    opacity: 0.7;
+  }
   .section-heading {
     color: $white;
   }

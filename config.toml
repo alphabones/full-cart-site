@@ -44,13 +44,13 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "Full Cart"
+    brand = "Full Cart [Need Logo]"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Services"
     portfolio = "Shopify Apps"
     about = "About"
-    team = "Team"
+    team = "About Us"
     contact = "Contact"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -113,7 +113,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Shopify Apps"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Take control of your shop's destiny with these simple improvements."
 
     [params.portfolio.modal]
       client = "Client"
@@ -125,8 +125,8 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = false
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "About Us"
+    subtitle = "We are a small team of product developers, focused on helping e-commerce businesses be more successful through efficiency, customer retention, customer engagement and more. Full Cart is based in beautiful Portland, Oregon."
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -159,55 +159,55 @@ googleAnalytics = ""
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
+    title = "About Us"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    description = "We are a small team of product developers, focused on helping e-commerce businesses be more successful through efficiency, customer retention, customer engagement and more. Full Cart is based in beautiful Portland, Oregon."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
-      # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+#    [[params.team.members]]
+#      img = "1.jpg"
+#      name = "Kay Garland"
+#      position = "Lead Designer"
+#      reportsTo = "CTO"
+#      livesIn = "[Munich, Germany](#some-maps-url)"
+#      scope = [
+#        "UX for [member dashboard](#)",
+#        "Maintainer for [awesome-project](#)",
+#        "Open Source [community management](#)"
+#      ]
+#      # For bio markdown and even multiline strings are available.
+#      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+#She worked at Pied Piper for years until they went belly up."""
+#      social = [
+#        ["fa-twitter", "#"],
+#        ["fa-facebook", "#"],
+#        ["fa-linkedin", "#"]
+#      ]
+#
+#    [[params.team.members]]
+#      img = "2.jpg"
+#      name = "Larry Parker"
+#      position = "Lead Marketer"
+#      social = [
+#        ["fa-twitter", "#"],
+#        ["fa-facebook", "#"],
+#        ["fa-linkedin", "#"]
+#      ]
+#
+#    [[params.team.members]]
+#      img = "3.jpg"
+#      name = "Diana Pertersen"
+#      position = "Lead Developer"
+#      social = [
+#        ["fa-twitter", "#"],
+#        ["fa-facebook", "#"],
+#        ["fa-linkedin", "#"]
+#      ]
 
   # Client section
     [params.clients_list]
@@ -238,9 +238,9 @@ She worked at Pied Piper for years until they went belly up."""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = false
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Have an idea for a project or app you'd like to develop?"
     buttonText = "Send message"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -261,7 +261,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "contact@getfullcart.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -313,11 +313,14 @@ She worked at Pied Piper for years until they went belly up."""
 #      link = "#"
 #      title = "LinkedIn"
 #
-#    [[params.footer.quicklinks]]
-#      text = "Privacy Policy"
-#      link = "#"
-#
-#    [[params.footer.quicklinks]]
-#      text = "Terms of Use"
-#      link = "#"
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
 
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
+
+  [params.subscribe]
+    enable = true
+    buttonText = "Subscribe"

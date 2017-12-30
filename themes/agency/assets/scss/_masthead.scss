@@ -2,7 +2,7 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg-carts.jpg');
+  background-image: url('../img/header-bg-dolls.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -26,12 +26,13 @@ header.masthead {
       @include heading-font;
     }
   }
+  text-shadow: 0 0 30px $gray-800;
 }
 @media(min-width:768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 230px;
+      padding-bottom: 170px;
       .intro-lead-in {
         font-size: 40px;
         font-style: italic;

@@ -1,0 +1,23 @@
+.form-wrapper {
+  padding: 20px;
+  input[type='text'] {
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
+    &::placeholder {
+      color: $gray-300;
+      font-family: arial, sans-serif;
+    }
+    &.mega {
+      min-width: 580px;
+      padding: 10px;
+      font-size: 1.4em;
+      outline: none;
+    }
+  }
+  button {
+    &.mega {
+
+    }
+  }
+}
